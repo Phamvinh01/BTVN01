@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bài 5</title>
+        <link rel="stylesheet" href="bai5.css" />  
+        
+    </head>
+    <body>
+        <div class="container">
+            <input class="textbox" type="text" class="textbox" placeholder="First name" aria-label="First name" >
+            <input class="textbox" type="text" class="textbox" placeholder="Last name" aria-label="Last name" >
+        </div>
+        <div class="container">
+            <input class="textbox" type="text" class="textbox" placeholder="Your email" aria-label="Your email" >
+            <input class="textbox" type="text" class="textbox" placeholder="Your phone" aria-label="Your phone" >
+        </div>
+        <div class="container">
+            <select id="tinh-thanh" class="select">
+                <option value="">Select country</option>
+                <optgroup label="Manchester">
+                    <option value="mu">Manchester United</option>
+                    <option value="mc">Manchester City</option>
+                </optgroup>
+                <optgroup label="London">
+                    <option value="ars">Arsenal</option>
+                    <option value="chel">Chelsea</option>
+                </optgroup>    
+                <optgroup label="Liverpool">
+                    <option value="liv">Liverpool</option>
+                    <option value="evt">Everton</option>
+                </optgroup>
+            </select>
+            <select class="select" name="lang" id="lang-select">
+                <option value="">Select course</option>
+                <option value="Course1">Course 1</option>
+                <option value="Course2">Course 2</option>
+            </select>
+        </div>
+        <div class="container">
+            <textarea class="content" rows="4" cols="50" name="content" form="usrform" placeholder="Content" aria-label="Content"></textarea>
+        </div>
+        <div class="container">
+            <button type="button" class="button">Submit</button>
+        </div>
+    </body>
+</html>

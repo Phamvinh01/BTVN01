@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+}
+.textbox{
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+}
+.content{
+    height: 100px;
+    width: 515px;
+    margin-top: 10px;
+}
+.select{
+    height: 35px;
+    width: 258px;
+    margin-top: 10px;
+}
+.button{
+    height: 30px;
+    width: 520px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+}

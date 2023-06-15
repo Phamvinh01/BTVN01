@@ -1,0 +1,22 @@
+.container{
+    text-align: center;
+}
+.textbox{
+    height: 30px;
+    width: 500px;
+    margin-top: 10px;
+}
+.message{
+    height: 100px;
+    width: 500px;
+    margin-top: 10px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgb(12, 95, 227);
+    border-color: rgb(12, 95, 227);
+    color: white;
+    border-radius: 5px;
+}
