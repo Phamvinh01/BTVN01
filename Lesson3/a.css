@@ -1,0 +1,337 @@
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #e1d5e7;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff2cc;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 45px;
+ 
+}
+
+.shop-trangchu{
+    display: flex;
+    padding-left: 20px;
+}
+
+.shop{
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.shop-info{
+    display: flex;
+    padding-right: 20px;
+    
+}
+
+.info{
+    padding: 0 25px;
+}
+
+.mycart{
+    background-color: #dae8fc;
+    border: 1px solid cyan;
+    border-radius: 7px;
+    width: auto;
+    height: 20px;
+}
+
+.shop-content{
+    padding: 20px;
+    display: flex;
+    
+}
+
+.img-section{
+    width: 50%;
+}
+
+.img-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainimg{
+    width: 500px;
+}
+
+.imgmain{
+    width: 300px;
+}
+
+.subimg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.imgsmall{
+    
+    width: 115px;
+    margin: 5px  0px 5px 0;
+}
+
+.product-info{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.product-des{
+    font-size: 20px;
+}
+
+.color-option{
+    margin-bottom: 10px;
+}
+
+.color{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.color-list{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+.choosecolor{
+    border: 1px solid #000;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.selectedcolor{
+    background-color: #b0e3e6;
+    border: 1px solid blue;
+}
+
+.design-option{
+    margin-bottom: 20px;
+}
+
+.design{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.design-type{
+    display: flex;
+}
+
+.choosetype{
+    border: 1px solid #000;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.selectedtype{
+    background-color: #b0e3e6;
+    border: 1px solid blue;
+}
+
+.price{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.price-name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 62px;
+    
+}
+
+.product-price{
+    color: blue;
+}
+
+.discount{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.discount-amount{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.product-discount{
+    color: red;
+}
+
+.rating{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.quantity-available{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 25px;
+}
+
+.in-stock{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 35px; 
+}
+
+.quatity{
+    color: blue;
+}
+
+.number-addcart{
+    display: flex;
+    align-items: center;
+}
+
+.select-number{
+    width: 60px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px thin gray;
+    margin-right: 10px;
+}
+
+.add{
+    width: 100px;
+    height: 30px;
+    background-color: #f8cecc;
+    border: 1px solid peachpuff;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.shop-comment{
+    margin-left: 20px;
+}
+
+.comment-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.comment1{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+.circle1
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e1d5e7;
+    margin-right: 10px;
+}
+
+.info-rating{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.user-basicinfo{
+    display: flex;
+    align-items: center;
+}
+
+.user-location{
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.starcolor{
+    color: yellow;
+    margin-right: 10px;
+}
+
+.date{
+    font-style: italic;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.user-comment{
+    margin-left: 10px;
+}
+
+.comment-page{
+    display: flex;
+    margin-left: 20px;
+}
+
+.page{
+    display: flex;
+    border: 1px solid #000;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.currentpage{
+    opacity: 0.5;
+}
+
+.footer{
+    margin-left: 5px;
+    background-color: #fff2cc;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shopname{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.addressandphone{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.address{
+    margin-left: 30px;
+    margin-right: 50px;
+}

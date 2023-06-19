@@ -1,0 +1,54 @@
+.conteiner-bar{
+    width:100px;
+    height:20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin:8px 0px;
+    position:relative;
+    overflow-y: auto;
+
+}
+.box{
+    width:400px;
+    height:140px;
+    padding:15px;
+    border-color : black;
+    border-style: solid;
+    background: green;
+   
+}
+
+.p2{
+    border: 1px solid red;
+    padding:8px;
+    background : pink;
+}
+.bt1{
+    padding:4px 12px;
+    border-color:brown;
+    background: red;
+    border:1px solid blue;
+    border-radius: 5px;
+    
+}
+.bt2{
+    padding:4px 12px;
+    border-color:brown;
+    background: pink;
+    border:1px solid rgb(6, 6, 13);
+    border-radius: 5px;
+}
+.p{
+    display:none;
+    position:absolute;
+    border:1px solid rgb(42, 155, 192);
+    background:brown;
+    top:120px;
+    left: 20px;
+    padding: 10px;
+   
+    
+}
+.bt1:hover ~ .p {
+    display: block;
+}
