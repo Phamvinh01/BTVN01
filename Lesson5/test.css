@@ -1,0 +1,68 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    
+}
+.hello{
+    display: flex;
+    padding-left: 15px;
+}
+.cicrle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(211, 223, 39);
+    
+
+}
+.film{
+    padding-top: 6px;
+    padding-left: 10px;
+   
+
+}
+.home{
+    display: flex;
+    padding-left: 10px;
+}
+.page{
+    padding: 0 20px;
+    display: flex;
+}
+.imgmain{
+    width :250px; 
+    justify-content: center;
+    height:350px;
+}
+.content{
+    margin-left: 30px;
+}
+
+.share-dowl{
+    display:flex;
+    
+}
+.share{
+    background:rgb(202, 46, 158);
+    border:1px solid black;
+    border-radius: 1px; 
+}
+.dowl{
+    background:rgb(196, 220, 74);
+    padding-left: 10px;
+    
+}
+.xem{
+    background:rgb(32, 156, 201);
+   
+    
+}
+.battle{
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+
