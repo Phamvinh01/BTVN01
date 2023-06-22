@@ -1,0 +1,14 @@
+.Cart-icon{
+    border: 1px solid #FFD38A;
+    
+    border-radius: 10px;
+    width: 476.5px;
+    height: 296px;
+    display: flex;
+  
+}
+.img{
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    width:50%;
+}
