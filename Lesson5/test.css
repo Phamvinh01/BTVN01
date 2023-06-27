@@ -1,68 +1,28 @@
+*{
+    margin: 0px;
+}
 .container{
     border: 1px solid black;
     display: flex;
-    background-color: aliceblue;
     justify-content: space-between;
-    
+    align-items: center;
 }
-.hello{
+.hello-film{
     display: flex;
-    padding-left: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid;
+    margin: 10px;
 }
 .cicrle{
+    background-color: bisque;
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: rgb(211, 223, 39);
-    
-
+    border: 1px solid;
 }
-.film{
-    padding-top: 6px;
-    padding-left: 10px;
-   
-
-}
-.home{
-    display: flex;
-    padding-left: 10px;
-}
-.page{
-    padding: 0 20px;
-    display: flex;
-}
-.imgmain{
-    width :250px; 
-    justify-content: center;
-    height:350px;
-}
-.content{
-    margin-left: 30px;
-}
-
-.share-dowl{
-    display:flex;
+.hello{
+    padding: 10px 6px;
     
 }
-.share{
-    background:rgb(202, 46, 158);
-    border:1px solid black;
-    border-radius: 1px; 
-}
-.dowl{
-    background:rgb(196, 220, 74);
-    padding-left: 10px;
-    
-}
-.xem{
-    background:rgb(32, 156, 201);
-   
-    
-}
-.battle{
-    display:flex;
-    justify-content: space-between;
-
-    
-}
-
