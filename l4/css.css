@@ -1,0 +1,167 @@
+.header{
+    position: relative;
+    border: 1px solid burlywood;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    background: antiquewhite;
+    align-items: center;
+}
+body{
+    height: 100%;
+}
+.my-shop{
+    position: absolute;
+    background-color: blueviolet;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 70%;
+    margin-bottom: 11px;
+    margin-right: 35px;
+}
+.p{
+    margin-left: 35px;
+    margin-bottom: 11px;
+    margin-right: 35px;
+}
+.home{
+    display: flex;
+    margin-right: 16px;
+}
+.page{
+    padding:0 10px;
+}
+.my-cart{
+    background-color: aqua;
+    padding:2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-bottom: 15px;
+}
+.img{
+    margin-left:10px;
+    background-color:grey ;
+    border: 1px solid black;
+    width: 435px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img1{
+   display: flex;
+}
+.img1 .p1{
+    margin-left:10px;
+    background-color:grey ;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img2{
+    display: flex;
+ }
+ .img2 .p2{
+     margin-left:10px;
+     background-color:grey ;
+     border: 1px solid black;
+     width: 100px;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+ }
+ .content{
+    display: flex;
+ }
+ .content2{
+    margin-left:50px;
+ }
+ .b1{
+    display: flex;
+ }
+ .a1{
+    margin-right: 10px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding:10px;
+    border-radius: 5px;
+ }
+ .a2{
+    margin-right: 10px;
+    border: 1px solid black;
+    padding:10px;
+    border-radius: 5px;
+ }
+ .b2{
+    margin-right: 10px;
+    border: 1px solid black;
+    padding:10px;
+    border-radius: 5px;
+ }
+ .h3{
+    display: flex;
+ }
+ .h3 .p4{
+    color: aqua;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .h4{
+    display: flex;
+ }
+ .h4 .p5{
+    color: red;
+    margin-left: 30px;
+    margin-top: 20px;
+ }
+ .h3{
+    display: flex;
+ }
+ .h3 .p4{
+    color: aqua;
+    margin-left: 30px;
+    margin-top: 20px;
+ }
+.input{
+    display: flex;
+}
+.p7{
+    margin-left: 70px;
+    padding-bottom: 3px;
+}
+.footer{
+    position: relative;
+    border: 1px solid burlywood;
+    padding: 6px;
+    display: block;
+    background: antiquewhite;
+    margin-top: 10%;
+    height: 100px;
+}
+.ft{
+    display: flex;
+}
+.fa {
+    position: relative;
+}
+.fa-map-marker{
+    position: absolute;
+    margin-top: 15px;
+}
+.fa {
+    position: relative;
+}
+.fa-phone{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 300px;
+}
