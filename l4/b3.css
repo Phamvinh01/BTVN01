@@ -1,0 +1,235 @@
+.circle
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #e1d5e7;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff2cc;
+    border: 1px solid yellow;
+    width: 100%;
+    height: 45px;
+}
+
+.shop-title{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.myshop{
+    font-size: 17px;
+    margin-left: 10px ;
+}
+
+.navbar-content{
+    display: flex;
+    padding-right: 20px;
+}
+
+.shop-info{
+    padding: 0 25px;
+    font-size: 17px;
+}
+
+.selected-shopinfo{
+    border: 1px solid cyan;
+    border-radius: 5px;
+    background-color: #dae8fc;
+    
+}
+
+.web-content{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.info-title{
+    margin-bottom: 5px;
+}
+
+.guest-info{
+    
+    display: flex;
+   
+}
+
+.basic-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid #000;
+    padding-left: 25px;
+    height: 230px;
+    border-right: none;
+}
+
+.name-title,
+.address-title,
+.number-title{
+    font-size: 18px;
+}
+
+.name,
+.number,
+.address{
+    width: 700px;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+.payment-method{
+    width: 50%;
+    border: 1px solid #000;
+    padding-left: 25px;
+}
+
+.payment-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.option1,
+.option2,
+.option3{
+    margin-right: 5px;
+}
+
+.credit-card,
+.your-bank,
+.Momo{
+    border: 1px solid #000;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.cart{
+    margin-top: 20px;
+    
+}
+
+.cart-item{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.first-half{
+    display: flex;
+    align-items: center;
+}
+
+.check-icon{
+    margin-right: 10px;
+}
+
+.item-img{
+    width: 140px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.item-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item-des{
+    display: flex;
+}
+
+.des1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid cyan;
+    background-color: #b0e3e6;
+    border-radius: 3px;
+    width: 60px;
+    height: 25px;
+}
+
+.second-half{
+    display: flex;
+    flex-direction: column;
+}
+
+.number-remove{
+    margin-bottom: 10px;
+}
+
+.quatity{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.remove{
+    width: 100px;
+    height: 35px; 
+    align-items: center;
+    background-color: #f8cecc;
+    border: 1px solid coral;
+    border-radius: 3px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.submit-order{
+    background-color: #dae8fc;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    height: 35px;
+}
+
+.order{
+    margin-bottom: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    border: 1px solid yellow;
+    background-color: #fff2cc;
+    width: 100%;
+    height: 70px;
+}
+
+.footer-title
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold   ;
+}
+
+.addressandphone{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.address{
+    margin-right: 35px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">day la the H1 co id</h1>
+    <h1 class="h1">day la the h1 co class</h1>
+    <h1>day la the h1 kh co gi</h1>
+    
+    
+    <script>
+        data-abc
+
+        //Selector bang id
+        // console.log(document.getElementById('h1'));
+
+        //selector bang class
+        // console.log(document.getElementsByClassName('h1'));
+        ////selector bang tagname
+        // console.log(document.getElementsByTagName('h1'));
+        // selector ket hop ca id,class,tag name
+        // document.querySelector('tagname#id.class')
+
+        // Console.log(document.querySelector('div.h1'));
+        console.log(document.querySelectorAll('h1.h1'));
+
+        console.log(document.getElementById('link').getAttribute('target'));
+
+
+
+
+        document.getElementById('pra').style.fontSize='32px';
+
+        document.getElementById('par').classList.add('test');
+        document.getElementById('par').classList.remove('test');
+        document.getElementById('par').classList.toggle('test');
+
+        
+    </script>
+</body>
+</html>
