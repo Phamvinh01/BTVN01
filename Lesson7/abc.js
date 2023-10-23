@@ -135,3 +135,35 @@
 // for(let i=1;i<=10;i++){
 //     console.log(n+' x '+i+" = "+n*i);
 // }
+// 14. Nhập vào số n (n >= 2). Hãy in ra màn hình hình vuông có độ dài cạnh = n.
+// function hinh_vuong(n) {
+//     if (n >= 2) {
+//         for (let i = 1; i <= n; i++) {
+//             for (let j = 1; j <= n; j++) {
+//                 console.log('*');
+//             }
+//             console.log('\n');
+//         }
+//     }
+// }
+// console.log(hinh_vuong(5));
+// 15. Nhập vào 2 số m, n (m >= 2, n > =2). Hãy in ra màn hình hình chữ nhật có độ chiều rộng là m và chiều cao là n.
+// function hinh_chu_nhat(m,n) {
+//     if (n >= 2) {
+//         for (let i = 1; i <= n; i++) {
+//             for (let j = 1; j <= m; j++) {
+//                 console.log('*');
+//             }
+//             console.log('\n');
+//         }
+//     }
+// }
+// console.log(hinh_chu_nhat(4,3));
+
+//16.
+// let n=Number(prompt('Nhap n'));
+// for(let i=1; i<=n;i++);
+// {
+//     for(let j=1;j<=n;j++); 
+
+// }

@@ -1,122 +1,134 @@
-.item-list{
-    margin-left: 20px;
-    width: 100%;
-    margin-right: 25px;
-}
-
-.search-item{
-    width: 100%;
-    border: 1px solid #000;
-    height: 50px;
+.top1{
+    background:  blanchedalmond;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid rgb(142, 154, 35);
+    
 }
-
-.keyword{
-    position: relative;
-    margin-left: 5px;
-    width: 300px;
-    border-radius: 3px;
-    height: 30px;
+.h1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rebeccapurple;
 }
-
-.search-icon{
-    position: absolute;
-    margin-left: -22px;
-    margin-top: 9px;
+.myshop{
+    padding-top: 6px;
+    padding-left: 10px;
 }
-
-.sort-order{
-    margin-right: 30px;
-}
-
-.sort{
-    margin-right: 10px;
-}
-
-.sort-item{
-    width: 100px;
-    height: 30px;
-    border-radius: 3px;
-}
-
-.order-item{
-    width: 100px;
-    height: 30px;
-    border-radius: 3px;
-}
-
-.item{
-    margin-top: 30px;
+.header{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    padding-left: 10px;
 }
-
-.img-product{
-    width: 265px;
-    height: 265px;
-}
-
-.product-name{
-    margin: 10px 0;
-    color: blue;
-}
-
-.price-discount{
+.header2{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    color: red;
+    padding-right: 10px;
 }
-
-.page
-{
-    display: flex;
-    margin-left: 202px;
-    margin-bottom: 20px;
+.page{
+    padding: 0 10px;
 }
-
-.pag1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    border: 1px solid #000;
-    width: 20px;
+.mycard{
+    border-radius: 7px;
+    background-color: #dae8fc;
+    border: 1px solid cyan;
+    width: auto;
     height: 20px;
-    border-radius: 2px;
+}
+.content{
+    padding: 30px;
+    display: flex;
+    
 }
 
-.selected-page{
-    opacity: 0.5;
-}
-
-.footer{
+.img{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
-    border: 1px solid yellow;
-    background-color: #fff2cc;
-    width: 100%;
-    height: 70px;
+}
+.anh1{
+    width: 500px;
+    
+}
+.imgmain{
+    width:300px;
+    
 }
 
-.footer-title
-{
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.addressandphone{
+.anh2{
     display: flex;
-    margin-left: 20px;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-between;
+    
+}
+.imgsmall{
+    width: 145px;
+    padding: 1px;
+}
+.Lorem{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.title2{
+    font-size: 20px;
+}
+.Color{
+   
+    margin-bottom:15px ;
+}
+.color1{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.mausac{
+    border:1px solid #000;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+.phamchi{
+    background-color: aqua;
+    border: 1px solid  black ;
+}
+
+
+.color2{
+    display: flex;
+}
+.design{
     margin-bottom: 20px;
 }
+.design1{
+    font-size: 20px;
+    font-weight: bold;
 
-.address{
-    margin-right: 60px;
 }
+.design-avc{
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+.classic{
+    border: 1px solid black;
+    display: flex;
+    border-radius: 5px ;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+.phamv{
+    background-color: aqua;
+    border:1px solid black ;
+}
+
+
+
+

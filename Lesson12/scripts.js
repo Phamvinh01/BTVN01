@@ -98,4 +98,6 @@ function renderStudent() {
 	tableStudent.innerHTML = stringHTML;
 }
 
+
+
 renderStudent();
